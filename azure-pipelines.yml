@@ -36,15 +36,15 @@ steps:
 
 
 - script: dotnet restore 
-#  displayName: Restore Packages 
+  displayName: Restore Packages 
  
 - script: dotnet build 
-#displayName: Build Project 
+  displayName: Build Project 
  
 - script: pwsh bin/Debug/net8.0/playwright.ps1 install 
   displayName: Install Playwright Browsers 
  
 - script: dotnet test 
-#displayName: Run Tests 
+  displayName: Run Tests 
 
  
