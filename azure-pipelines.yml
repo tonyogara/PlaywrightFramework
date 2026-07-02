@@ -24,25 +24,27 @@ trigger:
 - main 
  
 pool: 
-vmImage: 'ubuntu-latest' 
+  vmImage: 'ubuntu-latest' 
  
 steps: 
  
 - task: UseDotNet@2 
-inputs: 
-packageType: 'sdk' 
-version: '8.0.x' 
- 
+
+  inputs: 
+    packageType: 'sdk' 
+    version: '8.0.x' 
+
+
 - script: dotnet restore 
-displayName: Restore Packages 
+#  displayName: Restore Packages 
  
 - script: dotnet build 
-displayName: Build Project 
+#displayName: Build Project 
  
 - script: pwsh bin/Debug/net8.0/playwright.ps1 install 
-displayName: Install Playwright Browsers 
+#displayName: Install Playwright Browsers 
  
 - script: dotnet test 
-displayName: Run Tests 
+#displayName: Run Tests 
 
  
