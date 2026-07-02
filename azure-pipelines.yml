@@ -42,7 +42,7 @@ steps:
 #displayName: Build Project 
  
 - script: pwsh bin/Debug/net8.0/playwright.ps1 install 
-#displayName: Install Playwright Browsers 
+  displayName: Install Playwright Browsers 
  
 - script: dotnet test 
 #displayName: Run Tests 
