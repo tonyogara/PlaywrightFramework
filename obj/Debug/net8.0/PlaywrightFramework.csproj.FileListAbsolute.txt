@@ -396,3 +396,4 @@
 /Users/tony/Automation/PlaywrightFramework/obj/Debug/net8.0/PlaywrightFramework.pdb
 /Users/tony/Automation/PlaywrightFramework/obj/Debug/net8.0/PlaywrightFramework.genruntimeconfig.cache
 /Users/tony/Automation/PlaywrightFramework/obj/Debug/net8.0/ref/PlaywrightFramework.dll
+/Users/tony/Automation/PlaywrightFramework/obj/Debug/net8.0/PlaywrightFramework.sourcelink.json
