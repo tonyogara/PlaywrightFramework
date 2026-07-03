@@ -13,7 +13,7 @@
     public async Task SetUp()
     {
         playwright = await Playwright.CreateAsync();
-        browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions { Headless = false });
+        browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions { Headless = true });
         page = await browser.NewPageAsync();
     }
 
