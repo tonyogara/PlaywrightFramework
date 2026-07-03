@@ -23,7 +23,7 @@ namespace PlaywrightFramework.Pages
         public async Task NavigateToLoginPage()
         {
             //await _page.GotoAsync("https://example.com/login");
-            await _page.GotoAsync("https://www.saucedemo.com/");
+            await _page.GotoAsync("https://www.saucedemoXX.com/");
         }
 
         public async Task Login(string username, string password)
